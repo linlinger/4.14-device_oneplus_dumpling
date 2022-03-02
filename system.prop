@@ -1,3 +1,6 @@
 ro.display.series="OnePlus 5T"
 vendor.boot.project_name=17801
 ro.hardware.fingerprint=goodix
+
+# USB
+vendor.usb.product_string=OnePlus 5T
