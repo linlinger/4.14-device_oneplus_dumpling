@@ -27,7 +27,7 @@ $(call inherit-product, vendor/oneplus/dumpling/dumpling-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-aosp
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -57,6 +57,3 @@ PRODUCT_PACKAGES += \
 
 # Inherit from oneplus msm8998-common
 $(call inherit-product, device/oneplus/msm8998-common/common.mk)
-
-# Inherit from vendor/rs
-$(call inherit-product, vendor/rs/config/aosp_device.mk)
